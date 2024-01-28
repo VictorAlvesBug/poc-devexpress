@@ -1,26 +1,26 @@
+import 'devextreme/dist/css/dx.light.css';
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+			<Home/>
+		</>
   );
 }
+
+/*
+import {
+    Grid, Table, TableHeaderRow, TableEditRow, TableEditColumn,
+    TableFilterRow, TableGroupRow, TableRowDetail,
+    PagingPanel, GroupingPanel, DragDropProvider,
+    Toolbar, TableColumnVisibility, ColumnChooser, TableColumnResizing,
+    TableSummaryRow, TableColumnReordering
+} from '@devexpress/dx-react-grid-bootstrap3'
+
+Continuar instalação do DevExpress:
+https://js.devexpress.com/React/Documentation/Guide/React_Components/Add_DevExtreme_to_a_React_Application/
+*/
 
 export default App;
